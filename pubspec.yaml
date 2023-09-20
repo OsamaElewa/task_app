@@ -38,8 +38,14 @@ dependencies:
   flutter_screenutil: ^5.9.0
   bloc: ^8.1.1
   flutter_bloc: ^8.1.2
+  conditional_builder_null_safety: ^0.0.6
+  percent_indicator: ^4.2.3
+  date_picker_timeline: ^1.2.3
+  google_fonts: ^6.0.0
   dio: ^5.1.1
   shared_preferences: ^2.1.0
+  intl: ^0.18.1
+  syncfusion_flutter_datepicker: ^23.1.36
 
 dev_dependencies:
   flutter_test:

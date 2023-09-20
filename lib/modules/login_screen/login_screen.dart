@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:taskapp/modules/admin_home_page/admin_home_page.dart';
 import 'package:taskapp/modules/home_screen/home_screen.dart';
 import 'package:taskapp/modules/login_screen/Login_cubit/login_cubit.dart';
 
@@ -29,7 +30,7 @@ class LoginScreen extends StatelessWidget {
                 Navigator.pushAndRemoveUntil(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const HomeScreen(),
+                      builder: (context) => const AdminHomePage(),
                     ),
                     (route) => false);
               });
@@ -50,6 +51,7 @@ class LoginScreen extends StatelessWidget {
                   key: formKey,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
+
                     children: [
                       const Text(
                         'Welcome Back!',
